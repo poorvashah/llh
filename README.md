@@ -1,5 +1,5 @@
-# FirstProtractorTest
-In this projectwe are using Protractor with Cucumber and Page Objects and automating two scenarios
+# Protractor
+In this project we are using Protractor with Cucumber and Page Objects and automating two scenarios
 
 # Features
 The test framework is developed in Protractor-Cucumber framework and supports Behavioral Driven Development approach.
