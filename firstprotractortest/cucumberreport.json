@@ -1,0 +1,111 @@
+[
+  {
+    "description": "  As an Automation Engr\n  I would automate the application\n  So that I can show my automation capabilities",
+    "elements": [
+      {
+        "id": "user-management;add-user",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Add user",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "User is on way2automation page",
+            "result": {
+              "status": "passed",
+              "duration": 3908601
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\dell\\Desktop\\Protractor\\firstprotractortest\\stepdefn1.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user clicks on add buton and enters FirstName LastName UserName Password Customer Role Email CellPhone",
+            "result": {
+              "status": "passed",
+              "duration": 19702699
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\dell\\Desktop\\Protractor\\firstprotractortest\\stepdefn1.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user clicks on Save button",
+            "result": {
+              "status": "passed",
+              "duration": 1261500
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\dell\\Desktop\\Protractor\\firstprotractortest\\stepdefn1.js:38"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "user-management;delete-user-user-name:-tom-and-validate-user-has-been-deleted",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Delete user User Name: Tom and validate user has been deleted",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user searches tom and Tom is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 688400
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Users\\dell\\Desktop\\Protractor\\firstprotractortest\\stepdefn1.js:44"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user clciks on delete icon",
+            "result": {
+              "status": "passed",
+              "duration": 795899
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\dell\\Desktop\\Protractor\\firstprotractortest\\stepdefn1.js:49"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "tom is deleted successfully",
+            "result": {
+              "status": "passed",
+              "duration": 995700
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\dell\\Desktop\\Protractor\\firstprotractortest\\stepdefn1.js:54"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "user-management",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "User Management",
+    "tags": [],
+    "uri": "C:\\Users\\dell\\Desktop\\Protractor\\firstprotractortest\\adddeleteuser.feature"
+  }
+]
