@@ -9,7 +9,7 @@ The test framework is developed in Protractor-Cucumber framework and supports Be
 
 ```
 git clone https://github.com/poorvashah/llh.git   
-cd FirstProtractorTest
+cd protractor
 ```
 
 ### Install Dependencies
